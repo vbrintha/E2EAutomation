@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" thread-count="3" parallel="tests">
+  <test name="testInChrome">
+  	<parameter name="browser" value="Chrome"></parameter>
+      <classes>
+      	<class name="org.oracle.MultiBrowserParallel"/>
+      </classes>
+  </test> <!-- Test -->
+  <test name="testInIE">
+  	<parameter name="browser" value="IE"></parameter>
+      <classes>
+      	<class name="org.oracle.MultiBrowserParallel"/>
+      </classes>
+  </test> <!-- Test -->
+  <test name="testInFireFox">
+  	<parameter name="browser" value="FireFox"></parameter>
+      <classes>
+      	<class name="org.oracle.MultiBrowserParallel"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

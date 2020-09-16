@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TCRerunAnyCase">
+	<listeners>
+		<listener class-name = "org.oracle.FailedAll"></listener>
+	</listeners>
+  <test name="testrun1">
+      <classes>
+      	<class name="org.oracle.TCReRunAnyFailed"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

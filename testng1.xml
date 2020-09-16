@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test name="ClassAandB">
+      <classes>
+      	<class name="org.oracle.ParallelExecMethodA"/>
+      	<class name="org.oracle.ParallelExecMethodB"/>
+      </classes>
+  </test> <!-- Test -->
+  <test name="ClassCandD">
+      <classes>
+      	<class name="org.oracle.ParallelExecMethodC"/>
+      	<class name="org.oracle.ParallelExecMethodD"/>
+      </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

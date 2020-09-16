@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TCRerunAnyCase]">
+  <listeners>
+    <listener class-name="org.oracle.FailedAll"/>
+  </listeners>
+  <test thread-count="5" name="testrun1(failed)">
+    <classes>
+      <class name="org.oracle.TCReRunAnyFailed">
+        <methods>
+          <include name="tcA2"/>
+        </methods>
+      </class> <!-- org.oracle.TCReRunAnyFailed -->
+    </classes>
+  </test> <!-- testrun1(failed) -->
+</suite> <!-- Failed suite [TCRerunAnyCase] -->
